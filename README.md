@@ -98,8 +98,6 @@ It is ideal for those looking to **gain confidence in Power BI** and **start bui
 
 ---
 
-## 📂 Repository Structure
-
 
 
 

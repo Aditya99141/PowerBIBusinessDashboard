@@ -13,7 +13,7 @@ Used Power BI features like DAX, slicers, maps, and charts for a dynamic user ex
 🔢 Key KPIs Tracked:
 Total Sales – 1.57M
 Total Profit – 175.26K
-Quantity Sold – 22K units
+Quantity Sold – 22K units 
 Average Delivery Days – 4
 
 📈 Breakdown of Insights:

@@ -1,4 +1,4 @@
-Store Sales Dashboard using Power BI
+*Store Sales Dashboard using Power BI*
 Objective:
 To create a comprehensive, interactive Power BI dashboard that provides real-time insights into store sales performance, enabling businesses to monitor key performance indicators (KPIs), evaluate profitability, and make informed decisions based on sales trends, segments, shipping modes, and geographical data.
 

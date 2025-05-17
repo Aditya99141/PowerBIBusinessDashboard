@@ -1,64 +1,66 @@
-*Store Sales Dashboard using Power BI*
-Objective:
-To create a comprehensive, interactive Power BI dashboard that provides real-time insights into store sales performance, enabling businesses to monitor key performance indicators (KPIs), evaluate profitability, and make informed decisions based on sales trends, segments, shipping modes, and geographical data.
+📊 Store Sales Dashboard using Power BI
 
-Synopsis:
-This Power BI project showcases a dynamic store sales dashboard built using a fictional retail dataset. The dashboard integrates multiple visual elements such as bar charts, line graphs, pie charts, and a map to analyze and visualize sales, profit, quantity sold, shipping efficiency, customer segments, categories, and regional performance.
-The project focuses on Year-over-Year (YoY) analysis, segment-wise sales distribution, shipping preferences, and sub-category profitability. It equips stakeholders with the ability to identify top-performing products, regions, and payment modes, while also providing a drill-down capability for deeper insights.
+⭐ Objective
+Build an interactive Power BI dashboard to track sales KPIs and trends.
+Help stakeholders make data-driven decisions using clear and real-time insights.
 
-Data Analysis Performed:
-Key Metrics Tracked:
-Total Sales: 1.57M
-Quantity Sold: 22K units
-Total Profit: 175.26K
-Average Delivery Days: 4
-Breakdown of Key Analyses:
-Sales by Segment:
-Consumer (48%), Corporate (33%), Home Office (19%)
-Helps target high-conversion customer segments.
-Profit by Months (YoY - 2019 vs 2020):
-Identifies monthly performance trends and seasonality.
-2020 shows strong growth, especially in Q4.
-Sales by Ship Mode:
-Standard Class (0.33M) dominates shipping.
-Indicates need for faster shipping options like Same Day.
-Sales by Payment Mode:
-COD (43%), Online (35%), Cards (22%)
-Highlights customer trust and payment preferences.
-Sales by Category and Sub-Category:
-Office Supplies lead in sales (0.64M).
-Phones (0.20M) and Chairs (0.18M) are top sub-categories.
-Geographical Analysis (Map Visualization):
-Displays sales and profit distribution across U.S. states.
-Supports regional strategy planning.
-Monthly Sales YoY Comparison:
-Visual comparison between 2019 and 2020 performance.
+⭐ Synopsis
+The dashboard is based on fictional store sales data.
+It offers YoY comparisons, segment-wise performance, shipping trends, and geographical analysis.
+Used Power BI features like DAX, slicers, maps, and charts for a dynamic user experience.
 
-Usefulness of the Dashboard:
-For Business Owners: Helps identify profitable regions, products, and customer segments.
-For Marketing Teams: Informs customer targeting and promotional campaigns.
-For Operations: Reveals preferred shipping modes and average delivery times.
-For Finance Teams: Offers insights into profitability and payment trends.
+⭐ Data Analysis Performed
+🔢 Key KPIs Tracked:
+Total Sales – 1.57M
+Total Profit – 175.26K
+Quantity Sold – 22K units
+Average Delivery Days – 4
 
-Upstream of the Project:
-Data Collection: Retail transaction data including sales, profits, quantity, customer info, and shipping details.
-Data Preparation: Cleaning and transforming data using Power Query in Power BI.
-Data Modeling: Creating relationships between tables (e.g., customer, orders, products, shipping).
+📈 Breakdown of Insights:
+Customer Segments – Consumer (48%), Corporate (33%), Home Office (19%)
+Monthly Profit Trends – Identifies seasonal spikes, especially in Q4 2020
+Shipping Preferences – Standard Class dominates; room for faster modes
+Payment Preferences – COD (43%) leads, followed by Online (35%) and Cards (22%)
+Top Categories – Office Supplies leads; Phones and Chairs are top sub-categories
+Regional Sales – U.S. map shows which states are driving performance
 
-Downstream of the Project:
-Decision Making: Influences marketing strategies, supply chain planning, and customer engagement.
-Reporting: Automatically refreshes dashboards for real-time reporting.
-Automation: Enables automated insights through Power BI alerts and scheduled refreshes.
+⭐ Dashboard Usefulness
+Business Owners – Spot top products/regions; optimize revenue
+Marketing Teams – Plan promotions based on customer segments
+Operations – Analyze delivery efficiency and shipping preferences
+Finance Teams – Assess profit trends and payment behaviors
 
-Graphs and Visuals Used and Their Purpose:
-Visual Type	                                                       Purpose
-Card KPIs (Sales, Quantity, Profit, Avg Delivery Days)	 Show high-level metrics at a glance
-Donut Charts (Segment & Payment Mode)	                 Highlight composition and proportions
-Line Charts (Profit & Sales YoY)	                 Analyze trends and seasonal behavior
-Bar Charts (Ship Mode, Category, Sub-Category)	         Rank sales by product/service dimensions
-Map (Geo Map)	                                         Show regional distribution of sales and profits
-Slicer (Region)	                                         Enables filtering across the dashboard
+⭐ Upstream Data Flow
+Data Sources – Sales transactions, customer data, shipping details
+Preparation – Cleaned and transformed using Power Query
+Modeling – Relationships built across orders, customers, products, shipping
 
-Conclusion:
-This Power BI project demonstrates how a well-designed dashboard can transform raw sales data into actionable insights. It empowers stakeholders to make strategic decisions by offering a clear, interactive view of business performance across multiple dimensions.
+⭐ Downstream Outputs
+Interactive Dashboard – For daily operational and strategic decisions
+Automated Reports – Via scheduled refresh and alerting in Power BI Service
+Stakeholder Insights – Real-time filtering and exploration features
+
+⭐ Visuals and Their Use
+KPI Cards – Quick glance at key metrics
+Donut Charts – Customer Segment and Payment Mode distribution
+Line Charts – Monthly YoY performance trends
+Bar Charts – Top Categories, Sub-Categories, and Ship Modes
+Geo Map – Regional sales/profit analysis
+Slicers – Filters by Region, Category, Ship Mode
+⭐ Common DAX Used
+TOTALMTD() – Returns Month-To-Date values.
+TOTALYTD() – Returns Year-To-Date values.
+CALCULATE() – Performs context-based calculations.
+RANKX() – Ranks products/customers by sales.
+ALL() – Removes filters for ranking or total context.
+IF(), SWITCH() – Used for custom logic.
+DIVIDE() – Safe division to avoid errors.
+
+⭐ Conclusion:
+This project demonstrates how Power BI turns raw data into strategic insights.
+The dashboard is an effective tool for monitoring, analyzing, and improving sales performance.
+
+
+
+
 

@@ -61,9 +61,44 @@ This project is helpful for:
 ### 🔼 Upstream
 
 - **Data Source**: Excel file with raw sales transactions  
+- **Preprocessing**: Null handling, data type conversion, column cleanup  
+
+### 🔽 Downstream
+
+- **Power BI Dashboard**: Built with multiple visuals & DAX calculations  
+- **Report Sharing**: Published on Power BI Service for access by stakeholders  
+
+---
+
+## 📈 Visualizations Used
+
+| Visualization      | Purpose                                               |
+|--------------------|--------------------------------------------------------|
+| 📉 Line Chart       | Shows sales trend over months                         |
+| 📊 Bar Chart        | Region-wise sales and profit                          |
+| 🧁 Pie Chart        | Market share by product category                      |
+| 📋 Matrix           | Cross-tab report of profit by region and product      |
+| 🎛️ Slicers          | Filters for Region, Product Category, and Time Period |
+
+These visuals help in **dynamic filtering**, **comparative analysis**, and **strategic decision-making**.
+
+---
+
+## 🏁 Conclusion
+
+This Power BI project demonstrates how to:
+
+- Clean and transform data from Excel  
+- Build a data model with relationships  
+- Write DAX for KPIs like profit, sales, and quantity  
+- Design an interactive, insightful dashboard  
+- Complete the end-to-end BI process from raw data to report delivery  
+
+It is ideal for those looking to **gain confidence in Power BI** and **start building real-world dashboards**.
+
+---
 
 ## 📂 Repository Structure
-
 
 
 

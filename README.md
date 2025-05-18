@@ -1,104 +1,109 @@
-# 📊 Power BI Sales Dashboard Project
+# 🛒 Hypermart Sales Dashboard – Power BI Project
 
-This repository contains a complete Power BI Dashboard project built using Excel sales data. The project focuses on creating an interactive business intelligence report using Power BI.
+## 📌 Project Overview
 
----
+This Power BI project simulates a real-world scenario where the owner of a hypermart chain wants to **track and analyze online sales across India**. The goal was to build an **interactive and insightful sales dashboard** to empower data-driven business decisions.
 
-## 🎯 Objective
-
-The main objective of this project is to:
-
-- Teach **Power BI fundamentals** to beginners
-- Build an **interactive sales dashboard**
-- Explore **data cleaning, modeling**, and **visualization**
-- Derive insights for **data-driven business decisions**
+>  **Disclaimer:** The data used in this project is **not from an actual hypermart**. It was sourced from the internet for **educational and learning purposes only**.
 
 ---
 
-## 📄 Synopsis
+## 🎯 Project Objectives
 
-This hands-on Power BI project includes the following steps:
-
-1. **Data Import**: Excel data is loaded into Power BI Desktop  
-2. **Data Cleaning**: Power Query Editor is used for transformation  
-3. **Data Modeling**: Relationships are created between tables  
-4. **DAX Formulas**: Measures and calculated columns are created  
-5. **Dashboard Creation**: Visuals and slicers are added for interactivity  
-6. **Report Publishing**: Dashboard is published to Power BI Service  
+- Build a **visually interactive dashboard** for online sales analysis.
+- Apply the complete Power BI workflow: **data import, modeling, visualization,analysis**.
+- Derive insights that support **data-driven business decisions**.
 
 ---
 
-## 📊 Data Analysis Performed
+## 📁 Datasets Used
 
-We analyzed sales data using the following dimensions:
+### 1. `Details.csv`
+This file contains **order-level transaction details** and metrics like:
+- `Order ID`: Unique identifier for each order
+- `Amount`: Revenue generated from the order
+- `Profit`: Profit earned from that order
+- `Quantity`: Number of units sold
+- `Category` & `Sub-Category`: Type of product sold (e.g., Clothing → Saree)
+- `PaymentMode`: Payment method used (e.g., UPI, COD, Debit Card)
 
-- 📅 **Time Period** (Monthly/Quarterly)  
-- 🌍 **Region-wise Performance**  
-- 📦 **Product Category Sales**  
-- 💸 **Profit and Quantity Trends**  
+### 2. `Orders.csv`
+This file provides **customer and geographic details** for each order:
+- `Order ID`: Key to join with `Details.csv`
+- `Order Date`: Date of purchase
+- `Customer Name`: Name of the buyer
+- `State` & `City`: Location where the order was delivered
 
-Key metrics calculated:
-
-- **Total Sales**  
-- **Total Profit**  
-- **Profit Margin**  
-- **Units Sold**  
 
 ---
 
-## ✅ Usefulness
+## ⚙️ Power BI Workflow
 
-This project is helpful for:
+### 🔹 1. Data Import
+- Imported both datasets into **Power BI Desktop**.
 
-- 🧑‍🎓 **Students & Beginners** – to learn Power BI through practice  
-- 🧮 **Data Analysts** – to improve dashboarding & reporting skills  
-- 🏢 **Business Users** – to monitor sales, profit, and trends  
+### 🔹 2. Data preprocessing & Modeling
+- Verified field types (e.g., date, text, numeric) and column roles.
+- Created a **relationship** between the two tables using `Order ID`.
 
----
+### 🔹 3. DAX Calculations
+Created multiple measures and calculated columns, such as:
+- `Total Sales Amount`
+- `Total Profit`
+- `Total Quantity`
+- `Average Order Value`
+- Month-wise and Quarter-wise summaries
 
-## 🔄 Data Flow: Upstream and Downstream
-
-### 🔼 Upstream
-
-- **Data Source**: Excel file with raw sales transactions  
-- **Preprocessing**: Null handling, data type conversion, column cleanup  
-
-### 🔽 Downstream
-
-- **Power BI Dashboard**: Built with multiple visuals & DAX calculations  
-- **Report Sharing**: Published on Power BI Service for access by stakeholders  
-
----
-
-## 📈 Visualizations Used
-
-| Visualization      | Purpose                                               |
-|--------------------|--------------------------------------------------------|
-| 📉 Line Chart       | Shows sales trend over months                         |
-| 📊 Bar Chart        | Region-wise sales and profit                          |
-| 🧁 Pie Chart        | Market share by product category                      |
-| 📋 Matrix           | Cross-tab report of profit by region and product      |
-| 🎛️ Slicers          | Filters for Region, Product Category, and Time Period |
-
-These visuals help in **dynamic filtering**, **comparative analysis**, and **strategic decision-making**.
+### 🔹 4. Dashboard Development
+Designed a **clean and interactive dashboard** featuring:
+- KPI Cards, Bar Charts, Pie Charts
+- **Two slicers** for filtering:
+  - **Quarter-wise performance**
+  - **State-wise performance**
 
 ---
 
-## 🏁 Conclusion
+## 🧠 How This Dashboard Helps the Hypermart Owner
 
-This Power BI project demonstrates how to:
+The dashboard enables the owner to:
 
-- Clean and transform data from Excel  
-- Build a data model with relationships  
-- Write DAX for KPIs like profit, sales, and quantity  
-- Design an interactive, insightful dashboard  
-- Complete the end-to-end BI process from raw data to report delivery  
+- 📍 Identify **Top 3 States by Sales** (e.g., Maharashtra, Madhya Pradesh, Uttar Pradesh)
+- 📦 Discover which **product category** (e.g., Clothing) is **most popular**
+- 📅 Analyze **monthly sales trends** and identify **peak months** (e.g., December)
+- 🎯 Focus marketing efforts on **low-performing months or sub-categories**
+- 💳 Understand **preferred payment methods** (e.g., UPI leads with 43.74%)
+- 🧑‍💼 Track **high-value customers** by sales contribution
 
-It is ideal for those looking to **gain confidence in Power BI** and **start building real-world dashboards**.
+These insights allow the hypermart to make **informed decisions** regarding inventory, promotions, and regional targeting.
 
 ---
 
+## 🔄 Project Flow
 
+### ✅ Upstream (Input)
+- Raw files: `Details.csv`, `Orders.csv`
+- Initial inspection and cleansing
 
+### 📊 Downstream (Output)
+- Fully functional Power BI Dashboard with:
+  - Sales & Profit analysis
+  - Customer & State-wise views
+  - Time-based performance tracking
 
+---
 
+## 🛠️ Tools Used
+
+- Microsoft Power BI Desktop  
+- DAX (Data Analysis Expressions)  
+- Microsoft Excel (for initial data exploration)
+
+---
+
+## 🖼️ Dashboard Preview
+
+> 📎 Check out `Hypermarket Dashboard.pdf` included in this report to see a snapshot of the final dashboard.
+
+---
+
+Thank you!
